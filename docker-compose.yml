@@ -1,0 +1,10 @@
+services:
+  app:
+    image: oven/bun:latest
+    container_name: portfolio
+    working_dir: /workspace
+    volumes:
+      - ./workspace:/workspace:cached
+    ports:
+      - "3000:3000"
+    command: sleep infinity
