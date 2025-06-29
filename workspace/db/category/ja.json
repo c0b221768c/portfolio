@@ -1,0 +1,90 @@
+{
+  "red": {
+    "title": "食事",
+    "items": ["朝食", "昼食", "夕食"]
+  },
+  "orange": {
+    "title": "仕事と学習",
+    "items": ["仕事", "会議", "学校", "学習", "バイト"]
+  },
+  "amber": {
+    "title": "",
+    "items": []
+  },
+  "yellow": {
+    "title": "社交とイベント",
+    "items": ["遊び", "イベント", "部活"]
+  },
+  "lime": {
+    "title": "",
+    "items": []
+  },
+  "green": {
+    "title": "スポーツ",
+    "items": ["サッカー", "バスケ", "テニス"]
+  },
+  "emerald": {
+    "title": "",
+    "items": []
+  },
+  "teal": {
+    "title": "健康とフィットネス",
+    "items": ["ランニング", "散歩", "ジム", "検診", "病院"]
+  },
+  "cyan": {
+    "title": "趣味と娯楽",
+    "items": ["ゲーム", "開発"]
+  },
+  "sky": {
+    "title": "",
+    "items": []
+  },
+  "blue": {
+    "title": "",
+    "items": []
+  },
+  "indigo": {
+    "title": "リラックスと休息",
+    "items": ["お風呂", "睡眠"]
+  },
+  "violet": {
+    "title": "",
+    "items": []
+  },
+  "purple": {
+    "title": "",
+    "items": []
+  },
+  "fuchsia": {
+    "title": "",
+    "items": []
+  },
+  "pink": {
+    "title": "家庭と家事",
+    "items": ["掃除", "買い物"]
+  },
+  "rose": {
+    "title": "",
+    "items": []
+  },
+  "slate": {
+    "title": "",
+    "items": []
+  },
+  "gray": {
+    "title": "",
+    "items": []
+  },
+  "zinc": {
+    "title": "",
+    "items": []
+  },
+  "neutral": {
+    "title": "",
+    "items": []
+  },
+  "stone": {
+    "title": "",
+    "items": []
+  }
+}

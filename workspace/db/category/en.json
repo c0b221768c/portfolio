@@ -1,0 +1,90 @@
+{
+  "red": {
+    "title": "Meals",
+    "items": ["Breakfast", "Lunch", "Dinner"]
+  },
+  "orange": {
+    "title": "Work and Study",
+    "items": ["Work", "Meeting", "School", "Study", "Part-time Job"]
+  },
+  "amber": {
+    "title": "",
+    "items": []
+  },
+  "yellow": {
+    "title": "Social and Events",
+    "items": ["Hanging Out", "Event", "Club Activity"]
+  },
+  "lime": {
+    "title": "",
+    "items": []
+  },
+  "green": {
+    "title": "Sports",
+    "items": ["Soccer", "Basketball", "Tennis"]
+  },
+  "emerald": {
+    "title": "",
+    "items": []
+  },
+  "teal": {
+    "title": "Health and Fitness",
+    "items": ["Running", "Walking", "Gym", "Checkup", "Hospital"]
+  },
+  "cyan": {
+    "title": "Hobbies and Entertainment",
+    "items": ["Gaming", "Programming"]
+  },
+  "sky": {
+    "title": "",
+    "items": []
+  },
+  "blue": {
+    "title": "",
+    "items": []
+  },
+  "indigo": {
+    "title": "Relaxation and Rest",
+    "items": ["Bath", "Sleep"]
+  },
+  "violet": {
+    "title": "",
+    "items": []
+  },
+  "purple": {
+    "title": "",
+    "items": []
+  },
+  "fuchsia": {
+    "title": "",
+    "items": []
+  },
+  "pink": {
+    "title": "Home and Chores",
+    "items": ["Cleaning", "Shopping"]
+  },
+  "rose": {
+    "title": "",
+    "items": []
+  },
+  "slate": {
+    "title": "",
+    "items": []
+  },
+  "gray": {
+    "title": "",
+    "items": []
+  },
+  "zinc": {
+    "title": "",
+    "items": []
+  },
+  "neutral": {
+    "title": "",
+    "items": []
+  },
+  "stone": {
+    "title": "",
+    "items": []
+  }
+}
