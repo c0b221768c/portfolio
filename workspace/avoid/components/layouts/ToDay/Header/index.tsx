@@ -1,7 +1,7 @@
 "use client"
 
 import { ThemeToggle } from "./ThemeToggle"
-import { TimeModeSwitch } from "./TimeModeSwitch"
+import { TimeModeSwitch } from "../../../../../components/ui/Header/TimeModeSwitch"
 import { formatDateParts } from "@/lib/utils/formatDateParts"
 
 export function Header() {

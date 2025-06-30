@@ -1,6 +1,6 @@
 // CategoryPanel.tsx
 
-import { CategoryItem } from './CategoryItem';
+import { CategoryItem } from '../../../../../features/category/CategoryItem';
 import categoryData from '@/db/category/en.json';
 
 export function CategoryPanel() {

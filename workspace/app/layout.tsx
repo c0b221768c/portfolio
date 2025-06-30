@@ -16,7 +16,7 @@ export const styles = tv({
 export default function Layout({children}: {children:React.ReactNode}){
 	const {font, base} = styles()
   return (
-    <html lang='en' className={font()} suppressContentEditableWarning>
+    <html lang='en' className={font()} suppressHydrationWarning>
       <body className={base()}>
 				<ThemeProvider
 					attribute="class"
