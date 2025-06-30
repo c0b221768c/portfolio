@@ -122,11 +122,11 @@ export function DonutChart({
       width={size}
       height={size}
       viewBox="0 0 100 100"
-      className={`drop-shadow-md ${className}`}
+      className={`${className}`}
       role="img"
       aria-label="24時間のドーナツチャート"
     >
-      <circle cx={center} cy={center} r={outerRadius} className="fill-gray-100 dark:fill-neutral-800" />
+      <circle cx={center} cy={center} r={outerRadius} className="fill-neutral-100 dark:fill-neutral-900" />
 
       {/* セグメント */}
       {segmentPaths.map((seg) => (
@@ -142,7 +142,7 @@ export function DonutChart({
         cx={center}
         cy={center}
         r={innerRadiusValue}
-        className="fill-white dark:fill-neutral-900 stroke-gray-300 dark:stroke-neutral-700"
+        className="fill-white dark:fill-black"
         strokeWidth="0.2"
       />
 

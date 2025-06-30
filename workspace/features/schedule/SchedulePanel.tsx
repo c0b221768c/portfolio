@@ -1,6 +1,7 @@
 import { Schedule } from "@/types/schedule";
 import { ScheduleActions } from "./ScheduleActions";
 import { ScheduleList } from "./ScheduleList";
+import { cn } from "@/lib/utils/cn";
 
 interface SchedulePanelProps {
     schedules: Schedule[];
@@ -8,11 +9,13 @@ interface SchedulePanelProps {
     onEdit: (schedule: Schedule) => void;
     onDelete: (id: number) => void;
     onClearAll: () => void;
+    className?: string; // classNameを受け取れるようにする
 }
 
-export function SchedulePanel({ schedules, onAdd, onEdit, onDelete, onClearAll }: SchedulePanelProps) {
+export function SchedulePanel({ schedules, onAdd, onEdit, onDelete, onClearAll, className }: SchedulePanelProps) {
     return (
-        <div className="bg-white dark:bg-slate-900 rounded-xl row-span-2 grid grid-rows-[1fr_auto] w-full h-full overflow-hidden">
+        // 受け取ったclassNameを適用する
+        <div className={cn("bg-white dark:bg-black rounded-xl grid grid-rows-[1fr_auto] w-full h-full overflow-hidden", className)}>
             <ScheduleList 
                 schedules={schedules}
                 onEdit={onEdit}

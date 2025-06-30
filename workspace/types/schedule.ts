@@ -4,10 +4,9 @@ export interface Schedule {
   start: string; // "HH:mm"
   end: string;   // "HH:mm"
   color: string; // "red", "blue", etc.
+  subCategory: string; // ✨ サブカテゴリ用のフィールドを追加
 }
 
-// colorMapのキーと一致させるための型
-// components/layouts/ToDay/CategoryPanel/CategoryItem.tsx との整合性を保つ
 export const availableColors = [
   "red", "orange", "amber", "yellow", "lime", "green", "emerald", "teal", 
   "cyan", "sky", "blue", "indigo", "violet", "purple", "fuchsia", "pink", "rose"

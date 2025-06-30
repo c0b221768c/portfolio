@@ -12,11 +12,12 @@ export function Header() {
     )
 
     return (
-        <header className="grid grid-cols-[1fr_auto_1fr] w-full px-4 border-b border-neutral-200 items-center">
+        <header className="grid grid-cols-[1fr_auto_1fr] w-full px-4 border-b border-neutral-200 dark:border-neutral-800 items-center">
             <p className="text-lg font-bold tracking-wide justify-self-start">ToDay</p>
             <p className="text-center tracking-wide">{`${month}. ${day}, ${year}`}</p>
             <div className="flex items-center gap-3 justify-self-end">
-                <TimeModeSwitch />
+                {/* 後日実装 */}
+                {/* <TimeModeSwitch /> */}
                 <ThemeToggle />
             </div>
         </header>

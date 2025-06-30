@@ -8,7 +8,7 @@ interface ScheduleActionsProps {
 
 export function ScheduleActions({ onAdd, onClearAll }: ScheduleActionsProps) {
     return (
-        <div className="p-3 grid grid-cols-[2fr_5fr] gap-4 border-t border-slate-200 dark:border-slate-700">
+        <div className="p-3 grid grid-cols-[2fr_5fr] gap-4 border-t border-neutral-200 dark:border-neutral-700">
             <Button
                 color="danger"
                 variant="outlined"
